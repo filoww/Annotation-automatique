@@ -1,2 +1,2 @@
 # Annotation-automatique
-automatic annotation of Medical Report using nltk 
+automatic annotation of FRENCH Medical Report using nltk 
