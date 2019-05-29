@@ -28,14 +28,14 @@ def reco_concept(concepts,phrase_test):
 #isole
 def reco_qualifieurs(qualif, phrase_test):
     qualif_reco = []
-    print(concepts)
+   # print(qualif)
     for j in range(1,5):
         words = generate_ngrams(phrase_test, j)
         words = racinisation(words)
         for word in words:
-            print(word)
+    #        print(word)
             for i in range(0,len(qualif)):
-                if word == qualif[i]:
+                if word == qualif[i].replace('é','e'):
                     qualif_reco.append(qualifieurs[i])
     qualif_reco = filtrage_solution(qualif_reco)
     qualif_reco = set(qualif_reco)

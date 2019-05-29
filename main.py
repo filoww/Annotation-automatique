@@ -11,7 +11,7 @@ from treatment_file import treat_file
 
 if __name__ == "__main__":
     liste_file = glob.glob('/home/oni/SESSTIM/Corpus/Compte_rendu/*')
-    i = 0
+    i = 1
     for file in liste_file:
         file_result = '/home/oni/SESSTIM/Corpus/result' + str(i) + '.txt'
         treat_file(file, file_result)

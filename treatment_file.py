@@ -25,10 +25,15 @@ def treat_file(filename, file_result):
     result = open(file_result, 'w')
     for line in lines: 
         concept_reco, qualif_reco = treat_line(line)
-        result.write(filename + '\n     ' + line)
-        sol = '\n'+  str(concept_reco) +  '\n' + str(qualif_reco)
+        result.write(filename + '\n TEXTE :\n' +line)
+        sol = '\n concepts :  \n'+  str(concept_reco) +  '\n qualifieurs : \n' + str(qualif_reco)
         result.write(sol)
-        
-filename ='/home/oni/SESSTIM/Corpus/Compte_rendu/CompteRendu20.txt'
-filecible = '/home/oni/SESSTIM/Corpus/EXTRA.txt'
-treat_file(filename,filecible)
+
+
+#UTILISÉ EN DEBEUGAGE
+
+#
+#        
+#filename ='/home/oni/SESSTIM/Corpus/Compte_rendu/CompteRendu2.txt'
+#filecible = '/home/oni/SESSTIM/Corpus/EXTRA.txt'
+#treat_file(filename,filecible)

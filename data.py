@@ -11,22 +11,24 @@ qualifieurs = ['fréquentes' , 'en salves' , 'isolées', 'bigéminées', 'avec a
                'lambeaux', 'Soutenue', 'non soutenue', 'Brèves', 'salves', 'lambeaux', 'en salves' , 
                'bigéminées', 'une ou plusieurs morphologie', 
                'répétitives', 'complexes', 'doublets', 'triplets','couplets', 'à couplage précoce', 'à couplage tardif',
-               'à couplage variable',
-               'Monomorphe', 'polymorphe', 'Soutenue', 'non soutenue', 'Brèves', 'salves', 'lambeaux', 'Droit', 'gauche', 'permanent', 
-               'intermittent', 'chrono-dépendant','Diurne', 'nocturne', 'inappropriée', 'sur tout le nychémère', 'de haut degré', 
-               'complet', 'permanent', 'intermittent', 'avec échappement', 'sans échappement', 'trés rare', 'rare', 'nombreux']
+               'à couplage variable','Monomorphe', 'polymorphe', 'Soutenue', 'non soutenue', 'Brèves', 'salves', 'lambeaux', 
+               'Droit', 'gauche', 'permanent', 'intermittent', 'chrono-dépendant','Diurne', 'nocturne', 'inappropriée', 
+               'sur tout le nychémère', 'de haut degré', 'complet', 'permanent', 'intermittent', 'avec échappement', 
+               'sans échappement', 'trés rare', 'rare', 'nombreux']
   
 
 
 
 concept = [('Trouble du rythme', 'Trouble du rythme')
            ,('Arythmie','Trouble du rythme')
+           ,('Troubles rythmiques','Trouble du rythme')
            ,('arythmie cardiaque','Trouble du rythme')
            ,('palpitations', 'Trouble du rythme')
            ,('Dysrythmies','Trouble du rythme')
            ,('dysrythmies cardiaques', 'Trouble du rythme')
            ,('TDR', 'Trouble du rythme')
            ,('rythme sinusal','rythme sinusal')
+           ,('rythme de base sinusal','rythme sinusal')
            ,('Arythmie sinusale','Arythmie sinusale')
            ,('Arret sinusale','Arret sinusale')
            ,('pause sinusale','Arret sinusale')
@@ -74,7 +76,7 @@ concept = [('Trouble du rythme', 'Trouble du rythme')
            ,('Extrasystoles ventriculaire','Extrasystoles ventriculaire')
            ,('Extrasystolies ventriculaire','Extrasystoles ventriculaire')
            ,('Extrasystolie ventriculaire','Extrasystoles ventriculaire')
-           ,('extra-systolie ventriculaire','Extrasystoles ventriculaire')
+           ,('extra systolie ventriculair','Extrasystoles ventriculaire')
            ,('ESV','Extrasystoles ventriculaire')
            ,('Fibrillation atriale','Fibrillation auriculaire')
            ,('arythmie complète','Fibrillation auriculaire')
