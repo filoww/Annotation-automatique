@@ -9,7 +9,8 @@ from data import generate_data, qualifieurs, racinize_all_concept, racinize_all_
 from lemmat import generate_ngrams
 from lemmat import racinisation
 
-concepts = racinize_all_concept(generate_data())
+onto_file = '/home/oni/SESSTIM/ontology/root-ontology.owl'
+concepts = racinize_all_concept(generate_data(onto_file))
 qualif = racinize_all_qualifieurs(qualifieurs)
 mots_reconu = []
  

@@ -9,12 +9,12 @@ Created on Tue Jun  4 16:32:33 2019
 from lxml import etree
 import re 
 
-tree = etree.parse('/home/oni/SESSTIM/ontology/root-ontology.owl')
-root = tree.getroot()
 result = []
 result_final = []
 
-def recup_onto():
+def recup_onto(onto_file):
+    tree = etree.parse(onto_file)
+    root = tree.getroot()
     for children in root.getchildren():
         for child2 in children.getchildren():
             if child2.tag == '{http://webprotege.stanford.edu/}RmpWmpzHL6dPyxWm6EyfUY':

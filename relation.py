@@ -5,7 +5,6 @@ Created on Tue Jun  4 10:15:28 2019
 
 @author: oni
 """
-#NOT USE IN THE PROJECT 
 
 from lemmat import tagger, generate_ngrams,racinisation
 from treatment_file import treat_line
