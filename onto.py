@@ -9,10 +9,11 @@ Created on Tue Jun  4 16:32:33 2019
 from lxml import etree
 import re 
 
-result = []
-result_final = []
 
-def recup_onto(onto_file):
+
+
+def recup_onto(onto_file): #récupére les champs de l'ontologie dont on a besoin 
+    result = []
     tree = etree.parse(onto_file)
     root = tree.getroot()
     for children in root.getchildren():
@@ -30,9 +31,10 @@ def recup_onto(onto_file):
                 tup = (name,name)
                 result.append(tup)
     del result[0:5]
+    return result
 
-
-def constit_dico():
+def constit_dico(result): #constitut notre dico sous la forme (forme, libélé)
+    result_final = []
     for tup in result:
         if tup[0] != tup[1]:
             string  = tup[1]
@@ -46,6 +48,5 @@ def constit_dico():
             t2 = tup[1].replace('_',' ')
             t =(t2,t1)
             result_final.append(t)
-    result_final.append(('Rythme sinusal','Rythme sinusal'))
-    result_final.append(('rythme de base sinusal', 'Rythme sinusal'))
-    result_final.remove(('Sinusale','Sinusale'))
+    return result_final
+#ex : (esv, extrasystoles ventriculaire)

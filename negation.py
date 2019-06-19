@@ -7,9 +7,7 @@ Created on Thu Jun  6 11:30:10 2019
 """
 
 from data import negationeur, racinize_all_negationeur
-from tagging import filtrage_solution 
-from lemmat import generate_ngrams
-from lemmat import racinisation
+from lemmat import generate_ngrams , racinisation, filtrage_solution
 
 
 neg = racinize_all_negationeur(negationeur)

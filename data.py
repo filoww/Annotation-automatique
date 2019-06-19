@@ -6,16 +6,21 @@ Created on Tue May 28 12:32:49 2019
 @author: oni
 """
 from nltk.stem.snowball import FrenchStemmer
-from onto import recup_onto, constit_dico,result_final
+from onto import recup_onto, constit_dico
 
-qualifieurs = ['fréquentes', 'peu fréquentes', 'en salves' , 'isolées', 'bigéminées', 'avec aberration', 
+quali = [ 'en salves' , 'isolées', 'bigéminées', 'avec aberration', 
                'lambeaux', 'Soutenue', 'non soutenue', 'Brèves', 'salves', 'lambeaux', 'en salves' , 
-               'bigéminées', 'une ou plusieurs morphologie', 'trés rare', 'rare', 'pic',
+               'bigéminées', 'une ou plusieurs morphologie',  'pic',
                'répétitives', 'complexes', 'doublets', 'triplets','couplets', 'à couplage précoce', 'à couplage tardif',
                'à couplage variable','Monomorphe', 'polymorphe', 'Soutenue', 'non soutenue', 'Brèves', 'salves', 'lambeaux', 
-               'Droit', 'gauche', 'permanent', 'intermittent', 'chrono-dépendant','Diurne', 'nocturne', 'inappropriée', 
-               'sur tout le nychémère', 'de haut degré', 'complet', 'permanent', 'intermittent', 'avec échappement', 
-               'sans échappement', 'fréquentes','nombreux', 'peu nombreux', 'trés nombreux','significative', 'quelques']
+               'Droit', 'gauche', 'intermittent', 'chrono-dépendant','Diurne', 'nocturne', 'inappropriée', 
+               'sur tout le nychémère', 'de haut degré', 'complet', 'intermittent', 'avec échappement', 
+               'sans échappement', 'bénigne']
+
+quanti = ['fréquentes', 'peu fréquentes','nombreux', 'peu nombreux',  'permanent'
+          , 'trés rare', 'rare','trés nombreux','significative']
+
+#quelques pas traité car pouvant se rapporter à un qualifieurs 
 
 
 negationeur = ['ne', 'ni', 'aucun', 'pas', 'absence']
@@ -23,22 +28,22 @@ negationeur = ['ne', 'ni', 'aucun', 'pas', 'absence']
 
 class Concept :
     
-    def __init__(self, nom, qualif, status):
-        self.libele = nom
-        self.qualifieur  = qualif
-        self.stat = status
+    def __init__(self, nom, quanti, qualif, status):
+        self.libele = nom #mot unique (ne peut pas étre vide)
+        self.quantifieurs  = quanti #liste de qualifieur quantifieur (peut étre vide)
+        self.qualifieurs = qualif  #liste de qualifieur qualitatifs
+        self.stat = status #Observé ou non 
 
 
 # rare et trés rare defini comme une negation ici ? utile dans l'étiquetage ?
 def generate_data(onto_file ):
-    recup_onto(onto_file)
-    constit_dico()  
-    concept = result_final
-    concept.append(('Rythme sinusal','Rythme sinusal'))
-    concept.append(('rythme de base sinusal', 'Rythme sinusal'))
+    result = recup_onto(onto_file)
+    concept = constit_dico(result)  
+    concept.append(('rythme sinusal','rythme sinusal'))
+    concept.remove(('Sinusale', 'Sinusale'))
     return concept
 
-def racinize_all_negationeur(concept):
+def racinize_all_negationeur(concept): #toutes les racinisation servent à gérer les variations pour la détection
     nega_tiers = []
     stemmer = FrenchStemmer()
     for i in range(0,len(negationeur)):
@@ -68,4 +73,4 @@ def racinize_all_qualifieurs(qualifieurs):
             temp2 = stemmer.stem(temp)
         iznogoud.append(temp2)
     return iznogoud
-
+#iznogoud car il veut étre qualif à la place du qualif
