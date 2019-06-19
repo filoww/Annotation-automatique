@@ -1,0 +1,8 @@
+/home/oni/SESSTIM/Corpus/Compte_rendu/CompteRendu12.txt
+
+rythme sinusal permanent.
+
+rythme sinusal
+aucun qualifieurs 
+quantifieurs : 'permanent'
+présent : OUI

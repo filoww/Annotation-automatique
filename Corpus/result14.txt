@@ -1,0 +1,20 @@
+/home/oni/SESSTIM/Corpus/Compte_rendu/CompteRendu13.txt
+
+trés nombreuses esv polymorphes avec 2 morphologies prédominantes malgré un traitement par cordarone. 
+longs passages en bigéminisme. 
+discuter procédure d'ablation car possible participation des esv à la dysfonction systolique vg.
+
+Extrasystoles ventriculaire
+qualifieurs : 'polymorphe'
+quantifieurs : 'trés nombreux'
+présent : OUI
+
+Bigeminisme
+qualifieurs : 'bigéminées'
+aucun quantifieurs 
+présent : OUI
+
+Extrasystoles ventriculaire
+aucun qualifieurs 
+aucun quantifieurs 
+présent : OUI

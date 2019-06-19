@@ -1,0 +1,21 @@
+/home/oni/SESSTIM/Corpus/Compte_rendu/CompteRendu6.txt
+
+rythme  sinusal permanent. 
+pas d arythmie cardiaque. 
+extrasystoles ventriculaires assez rares isolées ou en doublets. 
+pas d autres anomalies rythmiques. 
+
+rythme sinusal
+aucun qualifieurs 
+quantifieurs : 'permanent'
+présent : OUI
+
+Trouble du rythme
+aucun qualifieurs 
+aucun quantifieurs 
+présent : NON
+
+Extrasystoles ventriculaire
+qualifieurs : 'doublets', 'isolées'
+quantifieurs : 'rare'
+présent : OUI

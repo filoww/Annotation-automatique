@@ -1,0 +1,15 @@
+/home/oni/SESSTIM/Corpus/Compte_rendu/CompteRendu5.txt
+
+rythme sinusal permanent. 
+une salve de fibrillation auriculaire de 30 secondes nocturne. 
+pas d autres anomalies. 
+
+rythme sinusal
+aucun qualifieurs 
+quantifieurs : 'permanent'
+présent : OUI
+
+Fibrillation auriculaire
+qualifieurs : 'salves', 'nocturne'
+aucun quantifieurs 
+présent : OUI

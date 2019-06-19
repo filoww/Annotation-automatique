@@ -1,0 +1,20 @@
+/home/oni/SESSTIM/Corpus/Compte_rendu/CompteRendu3.txt
+
+rythme sinusal permanent. 
+très rares extrasystoles supraventriculaires. 
+absence de tachycardie  supraventriculaires. 
+
+rythme sinusal
+aucun qualifieurs 
+quantifieurs : 'permanent'
+présent : OUI
+
+Extrasystoles auriculaire
+aucun qualifieurs 
+quantifieurs : 'trés rare'
+présent : OUI
+
+Tachycardie supraventriculaire
+aucun qualifieurs 
+aucun quantifieurs 
+présent : NON

@@ -1,0 +1,20 @@
+/home/oni/SESSTIM/Corpus/Compte_rendu/CompteRendu1.txt
+
+rythme sinusal permanent. 
+absence de tachycardie supraventriculaire. 
+absence de bradycardie. 
+
+rythme sinusal
+aucun qualifieurs 
+quantifieurs : 'permanent'
+présent : OUI
+
+Tachycardie supraventriculaire
+aucun qualifieurs 
+aucun quantifieurs 
+présent : NON
+
+Bradycardie
+aucun qualifieurs 
+aucun quantifieurs 
+présent : NON

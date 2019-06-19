@@ -1,0 +1,27 @@
+/home/oni/SESSTIM/Corpus/Compte_rendu/CompteRendu17.txt
+
+rythme sinusal permanent. 
+pas de troubles rythmiques. 
+quelques esv. 
+pas d episodes de bradycardie cardiaque significative. 
+pas de pauses cardiaques significatives. 
+
+rythme sinusal
+aucun qualifieurs 
+quantifieurs : 'permanent'
+présent : OUI
+
+Trouble du rythme
+aucun qualifieurs 
+aucun quantifieurs 
+présent : NON
+
+Extrasystoles ventriculaire
+aucun qualifieurs 
+aucun quantifieurs 
+présent : OUI
+
+Bradycardie
+aucun qualifieurs 
+quantifieurs : 'significative'
+présent : NON

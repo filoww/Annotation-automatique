@@ -1,0 +1,14 @@
+/home/oni/SESSTIM/Corpus/Compte_rendu/CompteRendu7.txt
+
+rythme sinusal permanent. 
+pas d arythmie cardiaque. 
+
+rythme sinusal
+aucun qualifieurs 
+quantifieurs : 'permanent'
+présent : OUI
+
+Trouble du rythme
+aucun qualifieurs 
+aucun quantifieurs 
+présent : NON

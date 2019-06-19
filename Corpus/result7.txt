@@ -1,0 +1,16 @@
+/home/oni/SESSTIM/Corpus/Compte_rendu/CompteRendu11.txt
+
+fibrillation auriculaire permanente. 
+fc moyenne a 130 par min. 
+extrasystoles ventriculaires isolées en couplets ou triplets :charge estimée a 2% environ. 
+pas de pauses significatives. 
+
+Fibrillation auriculaire
+aucun qualifieurs 
+quantifieurs : 'permanent'
+présent : OUI
+
+Extrasystoles ventriculaire
+qualifieurs : 'isolées', 'couplets', 'triplets'
+aucun quantifieurs 
+présent : OUI

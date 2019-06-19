@@ -1,0 +1,21 @@
+/home/oni/SESSTIM/Corpus/Compte_rendu/CompteRendu4.txt
+
+rythme sinusal permanent. 
+pas d arythmie cardiaque. 
+fc moyenne a 110 par min  max a 160 par min. 
+tachycardie sinusale quasi permanente diurne selon moi. 
+
+rythme sinusal
+aucun qualifieurs 
+quantifieurs : 'permanent'
+présent : OUI
+
+Trouble du rythme
+aucun qualifieurs 
+aucun quantifieurs 
+présent : NON
+
+Tachycardie
+qualifieurs : 'Diurne'
+quantifieurs : 'permanent'
+présent : OUI
