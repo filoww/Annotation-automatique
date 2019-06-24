@@ -1,26 +1,2 @@
-/home/oni/SESSTIM/Corpus/Compte_rendu/CompteRendu14.txt
+/home/oni/SESSTIM/craa/Corpus/Compte_rendu/CompteRendu14.txt
 
-rythme sinusal permanent. 
-pas d arythmie cardiaque. 
-quelques extrasystoles supraventriculaires. 
-un pic de tachycardie sinusale a 19h30 avec fc  max a 145 et durant 2 minutes . 
-
-rythme sinusal
-aucun qualifieurs 
-quantifieurs : 'permanent'
-présent : OUI
-
-Trouble du rythme
-aucun qualifieurs 
-aucun quantifieurs 
-présent : NON
-
-Extrasystoles auriculaire
-aucun qualifieurs 
-aucun quantifieurs 
-présent : OUI
-
-Tachycardie
-qualifieurs : 'pic'
-aucun quantifieurs 
-présent : OUI

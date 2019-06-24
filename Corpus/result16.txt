@@ -1,4 +1,4 @@
-/home/oni/SESSTIM/Corpus/Compte_rendu/CompteRendu20.txt
+/home/oni/SESSTIM/craa/Corpus/Compte_rendu/CompteRendu20.txt
 
 indication non précisée.. 
 rythme sinusal.. 

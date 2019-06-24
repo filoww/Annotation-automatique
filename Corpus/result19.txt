@@ -1,4 +1,4 @@
-/home/oni/SESSTIM/Corpus/Compte_rendu/CompteRendu15.txt
+/home/oni/SESSTIM/craa/Corpus/Compte_rendu/CompteRendu15.txt
 
 pas d'arythmie enregistrée.. 
 

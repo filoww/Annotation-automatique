@@ -1,4 +1,4 @@
-/home/oni/SESSTIM/Corpus/Compte_rendu/CompteRendu7.txt
+/home/oni/SESSTIM/craa/Corpus/Compte_rendu/CompteRendu7.txt
 
 rythme sinusal permanent. 
 pas d arythmie cardiaque. 

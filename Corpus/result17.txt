@@ -1,4 +1,4 @@
-/home/oni/SESSTIM/Corpus/Compte_rendu/CompteRendu9.txt
+/home/oni/SESSTIM/craa/Corpus/Compte_rendu/CompteRendu9.txt
 
 rythme sinusal permanent. 
 pas d arythmie cardiaque. 
@@ -17,7 +17,7 @@ présent : NON
 
 Bradycardie
 aucun qualifieurs 
-quantifieurs : 'significative'
+quantifieurs : 'significative', 'épisodique'
 présent : NON
 
 rythme sinusal

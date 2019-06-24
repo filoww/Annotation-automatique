@@ -1,4 +1,4 @@
-/home/oni/SESSTIM/Corpus/Compte_rendu/CompteRendu2.txt
+/home/oni/SESSTIM/craa/Corpus/Compte_rendu/CompteRendu2.txt
 
 rythme sinusal. 
 absence de bradycardie ou pause. 
@@ -38,5 +38,5 @@ présent : OUI
 
 Tachycardie supraventriculaire
 aucun qualifieurs 
-aucun quantifieurs 
+quantifieurs : 'épisodique'
 présent : NON

@@ -1,4 +1,4 @@
-/home/oni/SESSTIM/Corpus/Compte_rendu/CompteRendu3.txt
+/home/oni/SESSTIM/craa/Corpus/Compte_rendu/CompteRendu3.txt
 
 rythme sinusal permanent. 
 très rares extrasystoles supraventriculaires. 
@@ -11,7 +11,7 @@ présent : OUI
 
 Extrasystoles auriculaire
 aucun qualifieurs 
-quantifieurs : 'trés rare'
+quantifieurs : 'rare'
 présent : OUI
 
 Tachycardie supraventriculaire

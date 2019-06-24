@@ -1,4 +1,4 @@
-/home/oni/SESSTIM/Corpus/Compte_rendu/CompteRendu5.txt
+/home/oni/SESSTIM/craa/Corpus/Compte_rendu/CompteRendu5.txt
 
 rythme sinusal permanent. 
 une salve de fibrillation auriculaire de 30 secondes nocturne. 
@@ -10,6 +10,6 @@ quantifieurs : 'permanent'
 présent : OUI
 
 Fibrillation auriculaire
-qualifieurs : 'salves', 'nocturne'
+qualifieurs : 'nocturne', 'salves'
 aucun quantifieurs 
 présent : OUI

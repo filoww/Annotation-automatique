@@ -1,4 +1,4 @@
-/home/oni/SESSTIM/Corpus/Compte_rendu/CompteRendu11.txt
+/home/oni/SESSTIM/craa/Corpus/Compte_rendu/CompteRendu11.txt
 
 fibrillation auriculaire permanente. 
 fc moyenne a 130 par min. 
@@ -11,6 +11,6 @@ quantifieurs : 'permanent'
 présent : OUI
 
 Extrasystoles ventriculaire
-qualifieurs : 'isolées', 'couplets', 'triplets'
+qualifieurs : 'couplets', 'isolées', 'triplets'
 aucun quantifieurs 
 présent : OUI
