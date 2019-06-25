@@ -1,2 +1,14 @@
-/home/oni/SESSTIM/craa/Corpus/Compte_rendu/CompteRendu14.txt
+/home/oni/SESSTIM/craa/Corpus/Compte_rendu/CompteRendu7.txt
 
+rythme sinusal permanent. 
+pas d arythmie cardiaque. 
+
+rythme sinusal
+no qualifiers 
+quantifiers : 'permanent'
+orbserved : OUI
+
+Trouble du rythme
+no qualifiers 
+no quantifiers 
+orbserved : NON

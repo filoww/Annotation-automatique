@@ -1,14 +1,22 @@
-/home/oni/SESSTIM/craa/Corpus/Compte_rendu/CompteRendu7.txt
+/home/oni/SESSTIM/craa/Corpus/Compte_rendu/CompteRendu8.txt
 
+indication ?. 
 rythme sinusal permanent. 
 pas d arythmie cardiaque. 
+pas de pauses cardiaques significatives. 
+pas d episodes de bradycardie cardiaque significative. 
 
 rythme sinusal
-aucun qualifieurs 
-quantifieurs : 'permanent'
-présent : OUI
+no qualifiers 
+quantifiers : 'permanent'
+orbserved : OUI
 
 Trouble du rythme
-aucun qualifieurs 
-aucun quantifieurs 
-présent : NON
+no qualifiers 
+no quantifiers 
+orbserved : NON
+
+Bradycardie
+no qualifiers 
+quantifiers : 'significative', 'épisodique'
+orbserved : NON

@@ -1,22 +1,22 @@
-/home/oni/SESSTIM/craa/Corpus/Compte_rendu/CompteRendu8.txt
+/home/oni/SESSTIM/craa/Corpus/Compte_rendu/CompteRendu20.txt
 
-indication ?. 
-rythme sinusal permanent. 
-pas d arythmie cardiaque. 
-pas de pauses cardiaques significatives. 
-pas d episodes de bradycardie cardiaque significative. 
+indication non précisée.. 
+rythme sinusal.. 
+pas de trouble conductif.. 
+pas de trouble du rythme paroxystique soutenu.. 
+extra-systolie ventriculaire bénigne.. 
 
 rythme sinusal
-aucun qualifieurs 
-quantifieurs : 'permanent'
-présent : OUI
+no qualifiers 
+no quantifiers 
+orbserved : OUI
 
 Trouble du rythme
-aucun qualifieurs 
-aucun quantifieurs 
-présent : NON
+qualifiers : 'Soutenue'
+no quantifiers 
+orbserved : NON
 
-Bradycardie
-aucun qualifieurs 
-quantifieurs : 'épisodique', 'significative'
-présent : NON
+Extrasystoles ventriculaire
+qualifiers : 'bénigne'
+no quantifiers 
+orbserved : OUI

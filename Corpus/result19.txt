@@ -1,8 +1,16 @@
-/home/oni/SESSTIM/craa/Corpus/Compte_rendu/CompteRendu15.txt
+/home/oni/SESSTIM/craa/Corpus/Compte_rendu/CompteRendu11.txt
 
-pas d'arythmie enregistrée.. 
+fibrillation auriculaire permanente. 
+fc moyenne a 130 par min. 
+extrasystoles ventriculaires isolées en couplets ou triplets :charge estimée a 2% environ. 
+pas de pauses significatives. 
 
-Trouble du rythme
-aucun qualifieurs 
-aucun quantifieurs 
-présent : NON
+Fibrillation auriculaire
+no qualifiers 
+quantifiers : 'permanent'
+orbserved : OUI
+
+Extrasystoles ventriculaire
+qualifiers : 'triplets', 'isolées', 'couplets'
+no quantifiers 
+orbserved : OUI

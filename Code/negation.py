@@ -13,7 +13,7 @@ from lemmat import generate_ngrams , racinisation, filtrage_solution
 neg = racinize_all_negationeur(negationeur)
 mot_neg = []
  
-def reco_nega(neg,phrase_test):  #fait ressortir les marqueurs de negations 
+def reco_nega(neg,phrase_test):  #tagg negation marker
     neg_reco =[]
     for j in range(1,5):
         words = generate_ngrams(phrase_test, j)
@@ -28,7 +28,7 @@ def reco_nega(neg,phrase_test):  #fait ressortir les marqueurs de negations
     return neg_reco
 
 
-def status_neg(neg, phrase): # si presence de neg_word retourner statut negatif
+def status_neg(neg, phrase): #create Observed status if there is neg marker or not
     statut = ''
     neg_reco = reco_nega(neg,phrase)
     if len(neg_reco) > 0:

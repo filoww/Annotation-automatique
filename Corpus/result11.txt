@@ -1,20 +1,26 @@
-/home/oni/SESSTIM/craa/Corpus/Compte_rendu/CompteRendu3.txt
+/home/oni/SESSTIM/craa/Corpus/Compte_rendu/CompteRendu14.txt
 
 rythme sinusal permanent. 
-très rares extrasystoles supraventriculaires. 
-absence de tachycardie  supraventriculaires. 
+pas d arythmie cardiaque. 
+quelques extrasystoles supraventriculaires. 
+un pic de tachycardie sinusale a 19h30 avec fc  max a 145 et durant 2 minutes . 
 
 rythme sinusal
-aucun qualifieurs 
-quantifieurs : 'permanent'
-présent : OUI
+no qualifiers 
+quantifiers : 'permanent'
+orbserved : OUI
+
+Trouble du rythme
+no qualifiers 
+no quantifiers 
+orbserved : NON
 
 Extrasystoles auriculaire
-aucun qualifieurs 
-quantifieurs : 'rare'
-présent : OUI
+no qualifiers 
+no quantifiers 
+orbserved : OUI
 
-Tachycardie supraventriculaire
-aucun qualifieurs 
-aucun quantifieurs 
-présent : NON
+Tachycardie
+qualifiers : 'pic'
+quantifiers : 'un'
+orbserved : OUI

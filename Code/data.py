@@ -24,12 +24,11 @@ negationeur = ['ne', 'ni', 'aucun', 'pas', 'absence']
 class Concept :
     
     def __init__(self, nom, quanti, qualif, status):
-        self.libele = nom #mot unique (ne peut pas étre vide)
-        self.quantifieurs  = quanti #liste de qualifieur quantifieur (peut étre vide)
-        self.qualifieurs = qualif  #liste de qualifieur qualitatifs  (peut étre vide)
-        self.stat = status #Observé ou non(ne peut pas étre vide)
+        self.libele = nom #unique label (not empty)
+        self.quantifieurs  = quanti #list of quantitiv adjectives (empty)
+        self.qualifieurs = qualif  #list of qualitativ adjectives  (empty)
+        self.stat = status #Observed or not (not empty)
 
-# rare et trés rare defini comme une negation ici ? utile dans l'étiquetage ?
 def generate_data(onto_file ):
     quanti = generate_quanti()
     result = recup_onto(onto_file)
@@ -38,7 +37,7 @@ def generate_data(onto_file ):
     concept.remove(('Sinusale', 'Sinusale'))
     return concept, quanti
 
-def racinize_all_negationeur(concept): #toutes les racinisation servent à gérer les variations pour la détection
+def racinize_all_negationeur(concept): #all racinisation are used to work with variations
     nega_tiers = []
     stemmer = FrenchStemmer()
     for i in range(0,len(negationeur)):

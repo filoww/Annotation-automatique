@@ -1,27 +1,20 @@
-/home/oni/SESSTIM/craa/Corpus/Compte_rendu/CompteRendu10.txt
+/home/oni/SESSTIM/craa/Corpus/Compte_rendu/CompteRendu1.txt
 
 rythme sinusal permanent. 
-pas de troubles rythmiques. 
-pas d episodes de bradycardie cardiaque significative. 
-extrasystolie ventriculaire charge autour de 7.5%. 
-pas de pauses cardiaques significatives. 
+absence de tachycardie supraventriculaire. 
+absence de bradycardie. 
 
 rythme sinusal
-aucun qualifieurs 
-quantifieurs : 'permanent'
-présent : OUI
+no qualifiers 
+quantifiers : 'permanent'
+orbserved : OUI
 
-Trouble du rythme
-aucun qualifieurs 
-aucun quantifieurs 
-présent : NON
+Tachycardie supraventriculaire
+no qualifiers 
+no quantifiers 
+orbserved : NON
 
 Bradycardie
-aucun qualifieurs 
-quantifieurs : 'épisodique', 'significative'
-présent : NON
-
-Extrasystoles
-aucun qualifieurs 
-aucun quantifieurs 
-présent : OUI
+no qualifiers 
+no quantifiers 
+orbserved : NON

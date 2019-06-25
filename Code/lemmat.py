@@ -16,12 +16,12 @@ def racinisation(words):
     words_racine = [stemmer.stem(word) for word in words]
     return words_racine
         
-def tagger(words):   #tagging syntaxique utilisé dans relation
+def tagger(words):   #tagging syntaxique
     words_tags = [pos_tagger.tag(words)]
     return words_tags
  
     
-def generate_ngrams(s, n): # genere les multimots de taille n, sert de tokeniser
+def generate_ngrams(s, n): # generate multiwords of size n, tokeniser
     s = s.lower()
     s = (s.replace('é', 'e')).replace('è','e')
     s = re.sub(r'[^a-zA-Z0-9\s]', ' ', s)
@@ -30,7 +30,7 @@ def generate_ngrams(s, n): # genere les multimots de taille n, sert de tokeniser
     return [" ".join(ngram) for ngram in ngrams]    
 
 
-def filtrage_solution(liste): #permet de garder seulement les solutions les plus précises (termes les plus longs)
+def filtrage_solution(liste): #keep only the solution with the longest libele
     temp = liste.copy()
     for word in liste:
         for elem in temp:

@@ -12,7 +12,7 @@ import re
 
 
 
-def recup_onto(onto_file): #récupére les champs de l'ontologie dont on a besoin 
+def recup_onto(onto_file): #get all fields of ontology
     result = []
     tree = etree.parse(onto_file)
     root = tree.getroot()
@@ -33,7 +33,7 @@ def recup_onto(onto_file): #récupére les champs de l'ontologie dont on a besoi
     del result[0:5]
     return result
 
-def constit_dico(result): #constitut notre dico sous la forme (forme, libélé)
+def constit_dico(result): #creat dico with :  (form, label) one label multiple form
     result_final = []
     for tup in result:
         if tup[0] != tup[1]:

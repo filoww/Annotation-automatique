@@ -15,7 +15,7 @@ def recup_text(filename):
     lines = file.readlines()
     return lines
 
-def treat_line_simple(line): #traitement d'une ligne simple, 80% des cas
+def treat_line_simple(line): #treat a simple line 80% of cases 
     line = line.replace('é','e')
     concept_reco = reco_concept(line)
     qualif_reco = reco_quali(line)
@@ -23,7 +23,7 @@ def treat_line_simple(line): #traitement d'une ligne simple, 80% des cas
     status = status_neg(neg, line)
     return concept_reco, qualif_reco,quanti_reco, status
 
-def treat_line_cplx(line,tag): #phrase en 2 partie obligatoire pour relation
+def treat_line_cplx(line,tag): #treat the two parts sentences 
     temp = ''
     temp2 = ''
     concept_reco = []
@@ -49,7 +49,7 @@ def treat_line_cplx(line,tag): #phrase en 2 partie obligatoire pour relation
     status.append(status_t2)
     return concept_reco, qualif_reco, quanti_reco, status
 
-def sup_treat(line): #determine quel traitement utiliser 
+def sup_treat(line): #determine if its a simple or cplx treatment
     words = generate_ngrams(line,1)
     tag = tagger(words)
     taggeur = tag[0]
@@ -73,30 +73,30 @@ def sup_treat(line): #determine quel traitement utiliser
             liste_concept.append(concept)
     return liste_concept
 
-def afficher_concept(concept, result): #affiche un seul concept
+def afficher_concept(concept, result): #print one concept
      if concept.libele != []  and concept.qualifieurs != [] and concept.quantifieurs != []:
          result.write('\n' + (str(concept.libele).replace("['","")).replace("']","") + '\n')
-         result.write('qualifieurs : '+(str(concept.qualifieurs).replace('[','')).replace(']','') + '\n')
-         result.write('quantifieurs : '+(str(concept.quantifieurs).replace('[','')).replace(']','') + '\n')
-         result.write('présent : ' + concept.stat+ '\n')
+         result.write('qualifiers : '+(str(concept.qualifieurs).replace('[','')).replace(']','') + '\n')
+         result.write('quantifiers : '+(str(concept.quantifieurs).replace('[','')).replace(']','') + '\n')
+         result.write('orbserved : ' + concept.stat+ '\n')
      elif concept.libele != [] and concept.qualifieurs == [] and concept.quantifieurs != []:
          result.write('\n' + (str(concept.libele).replace("['","")).replace("']","") + '\n')
-         result.write('aucun qualifieurs \n')
-         result.write('quantifieurs : '+(str(concept.quantifieurs).replace('[','')).replace(']','') + '\n')
-         result.write('présent : ' +concept.stat+ '\n')
+         result.write('no qualifiers \n')
+         result.write('quantifiers : '+(str(concept.quantifieurs).replace('[','')).replace(']','') + '\n')
+         result.write('orbserved : ' +concept.stat+ '\n')
      elif concept.libele != [] and concept.qualifieurs != [] and concept.quantifieurs == []:
          result.write('\n' + (str(concept.libele).replace("['","")).replace("']","") + '\n')
-         result.write('qualifieurs : '+(str(concept.qualifieurs).replace('[','')).replace(']','') + '\n')
-         result.write('aucun quantifieurs \n')
-         result.write('présent : ' +concept.stat+ '\n')
+         result.write('qualifiers : '+(str(concept.qualifieurs).replace('[','')).replace(']','') + '\n')
+         result.write('no quantifiers \n')
+         result.write('orbserved : ' +concept.stat+ '\n')
      elif concept.libele != [] and concept.qualifieurs == [] and concept.quantifieurs == []:
          result.write('\n' + (str(concept.libele).replace("['","")).replace("']","") + '\n')
-         result.write('aucun qualifieurs \n')
-         result.write('aucun quantifieurs \n')
-         result.write('présent : ' +concept.stat+ '\n')
+         result.write('no qualifiers \n')
+         result.write('no quantifiers \n')
+         result.write('orbserved : ' +concept.stat+ '\n')
          
 
-def affichage_solution(sol, result): #affiche l'ensemble des concepts reconnus
+def affichage_solution(sol, result): #print a bunch of concepts
     for concept in sol :
         if len(concept) > 1 :
             for i in range(0, len(concept)):
@@ -104,7 +104,7 @@ def affichage_solution(sol, result): #affiche l'ensemble des concepts reconnus
         else :
             afficher_concept(concept[0], result)
                         
-def treat_file(filename, file_result): #traite un fichier ligne par ligne et affiche le resultat pour chaque ligne du fichier 
+def treat_file(filename, file_result): #treat a file line by line  
     lines = recup_text(filename)
     result = open(file_result, 'w')
     result.write(filename + '\n\n')

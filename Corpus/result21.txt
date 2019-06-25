@@ -1,14 +1,15 @@
-/home/oni/SESSTIM/craa/Corpus/Compte_rendu/CompteRendu0.txt
+/home/oni/SESSTIM/craa/Corpus/Compte_rendu/CompteRendu5.txt
 
-fa permanente sur les 3 jours analysés . . 
-pas de bradycardie ni pause . 
+rythme sinusal permanent. 
+une salve de fibrillation auriculaire de 30 secondes nocturne. 
+pas d autres anomalies. 
+
+rythme sinusal
+no qualifiers 
+quantifiers : 'permanent'
+orbserved : OUI
 
 Fibrillation auriculaire
-aucun qualifieurs 
-quantifieurs : 'permanent'
-présent : OUI
-
-Bradycardie
-aucun qualifieurs 
-aucun quantifieurs 
-présent : NON
+qualifiers : 'salves', 'nocturne'
+no quantifiers 
+orbserved : OUI

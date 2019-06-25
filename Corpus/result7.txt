@@ -1,16 +1,21 @@
-/home/oni/SESSTIM/craa/Corpus/Compte_rendu/CompteRendu11.txt
+/home/oni/SESSTIM/craa/Corpus/Compte_rendu/CompteRendu19.txt
 
-fibrillation auriculaire permanente. 
-fc moyenne a 130 par min. 
-extrasystoles ventriculaires isolées en couplets ou triplets :charge estimée a 2% environ. 
-pas de pauses significatives. 
+rythme de base sinusal. 
+arythmie ventriculaire monomorphe peu frequente . 
+pas de passage en fa. 
+pas de critere de dysfonction sinusale . 
+
+Trouble du rythme
+qualifiers : 'Monomorphe'
+quantifiers : 'peu', 'fréquentes'
+orbserved : OUI
 
 Fibrillation auriculaire
-aucun qualifieurs 
-quantifieurs : 'permanent'
-présent : OUI
+no qualifiers 
+no quantifiers 
+orbserved : NON
 
-Extrasystoles ventriculaire
-qualifieurs : 'couplets', 'isolées', 'triplets'
-aucun quantifieurs 
-présent : OUI
+Maladie du sinus
+no qualifiers 
+no quantifiers 
+orbserved : NON

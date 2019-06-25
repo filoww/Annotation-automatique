@@ -7,36 +7,36 @@ extrasystolies ventriculaires fréquentes polymorphes  avec quelques doublets ma
 extrasystolies supraventriculaires fréquentes mais aucun épisode de tachycardie atriale. 
 
 rythme sinusal
-aucun qualifieurs 
-aucun quantifieurs 
-présent : OUI
+no qualifiers 
+no quantifiers 
+orbserved : OUI
 
 Bradycardie
-aucun qualifieurs 
-aucun quantifieurs 
-présent : NON
+no qualifiers 
+no quantifiers 
+orbserved : NON
 
 Maladie du sinus
-aucun qualifieurs 
-aucun quantifieurs 
-présent : NON
+no qualifiers 
+no quantifiers 
+orbserved : NON
 
 Extrasystoles ventriculaire
-qualifieurs : 'doublets', 'polymorphe'
-quantifieurs : 'fréquentes'
-présent : OUI
+qualifiers : 'polymorphe', 'doublets'
+quantifiers : 'fréquentes'
+orbserved : OUI
 
 Tachycardie ventriculaire
-aucun qualifieurs 
-aucun quantifieurs 
-présent : NON
+no qualifiers 
+no quantifiers 
+orbserved : NON
 
 Extrasystoles auriculaire
-aucun qualifieurs 
-quantifieurs : 'fréquentes'
-présent : OUI
+no qualifiers 
+quantifiers : 'fréquentes'
+orbserved : OUI
 
 Tachycardie supraventriculaire
-aucun qualifieurs 
-quantifieurs : 'épisodique'
-présent : NON
+no qualifiers 
+quantifiers : 'épisodique'
+orbserved : NON

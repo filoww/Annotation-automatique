@@ -15,7 +15,7 @@ qualif = racinize_all_qualifieurs(quali)
 quantit = racinize_all_qualifieurs(quanti)
 mots_reconu = []
  
-def reco_concept(phrase_test): # fait ressortir les troubles reconnus 
+def reco_concept(phrase_test): #tagg known troubles
     concept_reco =[]
     for j in range(1,5):
         words = generate_ngrams(phrase_test, j)
@@ -29,7 +29,7 @@ def reco_concept(phrase_test): # fait ressortir les troubles reconnus
     return concept_reco
 
 
-def reco_quali(phrase_test): # fait ressortir les qualifieurs qualitatifs reconnus
+def reco_quali(phrase_test): #tagg known qualitativ
     quali_reco = []
     for j in range(1,5):
         words = generate_ngrams(phrase_test, j)
@@ -44,7 +44,7 @@ def reco_quali(phrase_test): # fait ressortir les qualifieurs qualitatifs reconn
 
 
 
-def reco_quanti(phrase_test): # fait ressortir les qualifieurs quantitatifs reconnus
+def reco_quanti(phrase_test): #tagg known quantitativ
     
     quanti_reco = []
     for j in range(1,5):

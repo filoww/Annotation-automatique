@@ -4,6 +4,6 @@ electroentrainement ventriculaire permanent.
 quelques esv. 
 
 Extrasystoles ventriculaire
-aucun qualifieurs 
-aucun quantifieurs 
-présent : OUI
+no qualifiers 
+no quantifiers 
+orbserved : OUI

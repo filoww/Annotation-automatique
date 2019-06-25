@@ -1,15 +1,26 @@
-/home/oni/SESSTIM/craa/Corpus/Compte_rendu/CompteRendu5.txt
+/home/oni/SESSTIM/craa/Corpus/Compte_rendu/CompteRendu9.txt
 
 rythme sinusal permanent. 
-une salve de fibrillation auriculaire de 30 secondes nocturne. 
-pas d autres anomalies. 
+pas d arythmie cardiaque. 
+pas d episodes de bradycardie cardiaque significative. 
+fc max a 155 par min mais en rythme sinusal. 
 
 rythme sinusal
-aucun qualifieurs 
-quantifieurs : 'permanent'
-présent : OUI
+no qualifiers 
+quantifiers : 'permanent'
+orbserved : OUI
 
-Fibrillation auriculaire
-qualifieurs : 'nocturne', 'salves'
-aucun quantifieurs 
-présent : OUI
+Trouble du rythme
+no qualifiers 
+no quantifiers 
+orbserved : NON
+
+Bradycardie
+no qualifiers 
+quantifiers : 'significative', 'épisodique'
+orbserved : NON
+
+rythme sinusal
+no qualifiers 
+no quantifiers 
+orbserved : OUI

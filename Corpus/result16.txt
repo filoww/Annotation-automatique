@@ -1,22 +1,8 @@
-/home/oni/SESSTIM/craa/Corpus/Compte_rendu/CompteRendu20.txt
+/home/oni/SESSTIM/craa/Corpus/Compte_rendu/CompteRendu15.txt
 
-indication non précisée.. 
-rythme sinusal.. 
-pas de trouble conductif.. 
-pas de trouble du rythme paroxystique soutenu.. 
-extra-systolie ventriculaire bénigne.. 
-
-rythme sinusal
-aucun qualifieurs 
-aucun quantifieurs 
-présent : OUI
+pas d'arythmie enregistrée.. 
 
 Trouble du rythme
-qualifieurs : 'Soutenue'
-aucun quantifieurs 
-présent : NON
-
-Extrasystoles ventriculaire
-qualifieurs : 'bénigne'
-aucun quantifieurs 
-présent : OUI
+no qualifiers 
+no quantifiers 
+orbserved : NON
