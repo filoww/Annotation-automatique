@@ -1,20 +1,27 @@
-/home/oni/SESSTIM/craa/Corpus/Compte_rendu/CompteRendu13.txt
+/home/oni/SESSTIM/craa/Corpus/Compte_rendu/CompteRendu14.txt
 
-trés nombreuses esv polymorphes avec 2 morphologies prédominantes malgré un traitement par cordarone. 
-longs passages en bigéminisme. 
-discuter procédure d'ablation car possible participation des esv à la dysfonction systolique vg.
-
-Extrasystoles ventriculaire
-qualifiers : 'polymorphe'
-quantifiers : 'nombreux', 'un'
+--------------------
+rythme sinusal permanent. 
+pas d arythmie cardiaque. 
+quelques extrasystoles supraventriculaires. 
+un pic de tachycardie sinusale a 19h30 avec fc  max a 145 et durant 2 minutes . 
+--------------------
+rythme sinusal
+no qualifiers 
+quantifiers : 'permanent'
 orbserved : OUI
 
-Bigeminisme
-qualifiers : 'bigéminées'
-no quantifiers 
-orbserved : OUI
-
-Extrasystoles ventriculaire
+Trouble du rythme
 no qualifiers 
 no quantifiers 
+orbserved : NON
+
+Extrasystoles auriculaire
+no qualifiers 
+no quantifiers 
+orbserved : OUI
+
+Tachycardie
+qualifiers : 'pic'
+quantifiers : 'un'
 orbserved : OUI

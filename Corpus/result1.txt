@@ -1,20 +1,9 @@
-/home/oni/SESSTIM/craa/Corpus/Compte_rendu/CompteRendu1.txt
+/home/oni/SESSTIM/craa/Corpus/Compte_rendu/CompteRendu37.txt
 
-rythme sinusal permanent. 
-absence de tachycardie supraventriculaire. 
-absence de bradycardie. 
-
-rythme sinusal
+--------------------
+rythme électro entrainé avec extra-systolie ventriculaire non menaçante et possible FA de 0h à 6h.
+--------------------
+Fibrillation auriculaire, Extrasystoles ventriculaire
 no qualifiers 
-quantifiers : 'permanent'
+no quantifiers 
 orbserved : OUI
-
-Tachycardie supraventriculaire
-no qualifiers 
-no quantifiers 
-orbserved : NON
-
-Bradycardie
-no qualifiers 
-no quantifiers 
-orbserved : NON

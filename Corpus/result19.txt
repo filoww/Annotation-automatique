@@ -1,16 +1,21 @@
-/home/oni/SESSTIM/craa/Corpus/Compte_rendu/CompteRendu11.txt
+/home/oni/SESSTIM/craa/Corpus/Compte_rendu/CompteRendu3.txt
 
-fibrillation auriculaire permanente. 
-fc moyenne a 130 par min. 
-extrasystoles ventriculaires isolées en couplets ou triplets :charge estimée a 2% environ. 
-pas de pauses significatives. 
-
-Fibrillation auriculaire
+--------------------
+rythme sinusal permanent. 
+très rares extrasystoles supraventriculaires. 
+absence de tachycardie  supraventriculaires. 
+--------------------
+rythme sinusal
 no qualifiers 
 quantifiers : 'permanent'
 orbserved : OUI
 
-Extrasystoles ventriculaire
-qualifiers : 'triplets', 'isolées', 'couplets'
-no quantifiers 
+Extrasystoles auriculaire
+no qualifiers 
+quantifiers : 'rare'
 orbserved : OUI
+
+Tachycardie supraventriculaire
+no qualifiers 
+no quantifiers 
+orbserved : NON

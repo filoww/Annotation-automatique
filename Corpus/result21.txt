@@ -1,15 +1,16 @@
-/home/oni/SESSTIM/craa/Corpus/Compte_rendu/CompteRendu5.txt
+/home/oni/SESSTIM/craa/Corpus/Compte_rendu/CompteRendu36.txt
 
-rythme sinusal permanent. 
-une salve de fibrillation auriculaire de 30 secondes nocturne. 
-pas d autres anomalies. 
-
-rythme sinusal
-no qualifiers 
-quantifiers : 'permanent'
-orbserved : OUI
-
-Fibrillation auriculaire
-qualifiers : 'salves', 'nocturne'
+--------------------
+Rythme electroentraine permanent avec frequence moyenne 57 minimale 50.
+absence de tachycardie supraventriculaire paroxystique.
+rare ESV.
+--------------------
+Tachycardie supraventriculaire
+qualifiers : 'paroxystique'
 no quantifiers 
+orbserved : NON
+
+Extrasystoles ventriculaire
+no qualifiers 
+quantifiers : 'rare'
 orbserved : OUI

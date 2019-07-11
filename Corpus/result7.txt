@@ -1,21 +1,15 @@
-/home/oni/SESSTIM/craa/Corpus/Compte_rendu/CompteRendu19.txt
+/home/oni/SESSTIM/craa/Corpus/Compte_rendu/CompteRendu7.txt
 
-rythme de base sinusal. 
-arythmie ventriculaire monomorphe peu frequente . 
-pas de passage en fa. 
-pas de critere de dysfonction sinusale . 
-
-Trouble du rythme
-qualifiers : 'Monomorphe'
-quantifiers : 'peu', 'fréquentes'
+--------------------
+rythme sinusal permanent. 
+pas d arythmie cardiaque. 
+--------------------
+rythme sinusal
+no qualifiers 
+quantifiers : 'permanent'
 orbserved : OUI
 
-Fibrillation auriculaire
-no qualifiers 
-no quantifiers 
-orbserved : NON
-
-Maladie du sinus
+Trouble du rythme
 no qualifiers 
 no quantifiers 
 orbserved : NON

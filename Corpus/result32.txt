@@ -1,0 +1,33 @@
+/home/oni/SESSTIM/craa/Corpus/Compte_rendu/CompteRendu27.txt
+
+--------------------
+RYTHME SINUSAL PERMANENT.
+PAS DE TROUBLES RYTHMIQUES.
+PAS D EPISODES DE BRADYCARDIE CARDIAQUE SIGNIFICATIVE.
+EXTRASYSTOLIE VENTRICULAIRE CHARGE AUTOUR DE 7.5%.
+PAS DE PAUSES CARDIAQUES SIGNIFICATIVES.
+--------------------
+rythme sinusal
+no qualifiers 
+quantifiers : 'permanent'
+orbserved : OUI
+
+Trouble du rythme
+no qualifiers 
+no quantifiers 
+orbserved : NON
+
+Bradycardie
+no qualifiers 
+quantifiers : 'épisodique', 'significative'
+orbserved : NON
+
+Extrasystoles ventriculaire
+no qualifiers 
+no quantifiers 
+orbserved : OUI
+
+Pause cardiaque
+no qualifiers 
+quantifiers : 'significative'
+orbserved : NON

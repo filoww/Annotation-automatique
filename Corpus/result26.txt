@@ -1,0 +1,21 @@
+/home/oni/SESSTIM/craa/Corpus/Compte_rendu/CompteRendu22.txt
+
+--------------------
+RS permanent.
+ESV monomorphes tres fréquentes sous détectées avec bigéminisme ventriculaire quasi permanent disparaissant à l'effort.
+absence d'arythmie ventriculaire complexe.
+--------------------
+rythme sinusal
+no qualifiers 
+quantifiers : 'permanent'
+orbserved : OUI
+
+Extrasystoles ventriculaire, Bigeminisme
+qualifiers : 'Monomorphe', 'bigéminées'
+quantifiers : 'fréquentes', 'permanent'
+orbserved : OUI
+
+Trouble du rythme
+qualifiers : 'complexes'
+no quantifiers 
+orbserved : NON

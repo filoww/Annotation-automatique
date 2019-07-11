@@ -1,0 +1,27 @@
+/home/oni/SESSTIM/craa/Corpus/Compte_rendu/CompteRendu9.txt
+
+--------------------
+rythme sinusal permanent. 
+pas d arythmie cardiaque. 
+pas d episodes de bradycardie cardiaque significative. 
+fc max a 155 par min mais en rythme sinusal. 
+--------------------
+rythme sinusal
+no qualifiers 
+quantifiers : 'permanent'
+orbserved : OUI
+
+Trouble du rythme
+no qualifiers 
+no quantifiers 
+orbserved : NON
+
+Bradycardie
+no qualifiers 
+quantifiers : 'épisodique', 'significative'
+orbserved : NON
+
+rythme sinusal
+no qualifiers 
+no quantifiers 
+orbserved : OUI

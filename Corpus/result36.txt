@@ -1,0 +1,28 @@
+/home/oni/SESSTIM/craa/Corpus/Compte_rendu/CompteRendu23.txt
+
+--------------------
+Rythme sinusal permanent. 
+Fréquence cardiaque moyenne à 100/min.
+Pas d'épisode soutenu de FA/flutter enregistré.
+Pas d'épisode d'arythmie ventriculaire.
+Pas de bradycardie ni de pause.
+--------------------
+rythme sinusal
+no qualifiers 
+quantifiers : 'permanent'
+orbserved : OUI
+
+Fibrillation auriculaire, Flutter
+qualifiers : 'soutenue'
+quantifiers : 'épisodique'
+orbserved : NON
+
+Trouble du rythme
+no qualifiers 
+quantifiers : 'épisodique'
+orbserved : NON
+
+Bradycardie, Pause cardiaque
+no qualifiers 
+no quantifiers 
+orbserved : NON

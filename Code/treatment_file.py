@@ -23,7 +23,7 @@ def treat_line_simple(line): #treat a simple line 80% of cases
     status = status_neg(neg, line)
     return concept_reco, qualif_reco,quanti_reco, status
 
-def treat_line_cplx(line,tag): #treat the two parts sentences 
+def treat_line_cplx(line,tag, cible): #treat the two parts sentences 
     temp = ''
     temp2 = ''
     concept_reco = []
@@ -31,13 +31,12 @@ def treat_line_cplx(line,tag): #treat the two parts sentences
     quanti_reco = []
     status = []
     i = 0
-    cible = ('mais', 'CC')
     while tag[i]!= cible:
         temp +=  tag[i][0] + ' '
         i += 1
     for j in range(i, len(tag)):
         temp2 = temp2 + tag[j][0] + ' '
-    concept_reco_t1, qualif_reco_t1, quanti_reco_t1, status_t1 = treat_line_simple(temp)   
+    concept_reco_t1, qualif_reco_t1, quanti_reco_t1, status_t1 = treat_line_simple(temp.replace(cible[0],''))   
     concept_reco_t2, qualif_reco_t2, quanti_reco_t2, status_t2 = treat_line_simple(temp2)
     concept_reco.append(concept_reco_t1)  
     concept_reco.append(concept_reco_t2)
@@ -54,12 +53,23 @@ def sup_treat(line): #determine if its a simple or cplx treatment
     tag = tagger(words)
     taggeur = tag[0]
     liste_concept = []
+    Trigger = False
     if 'mais' in words: 
-        concept_reco, qualif_reco, quanti_reco, status = treat_line_cplx(line, taggeur)
+        concept_reco, qualif_reco, quanti_reco, status = treat_line_cplx(line, taggeur, ('mais', 'CC'))
         for i in range(0,len(concept_reco)):
             if concept_reco[i] is not None:
                 concept = Concept(concept_reco[i], quanti_reco[i], qualif_reco[i], status[i])
                 liste_concept.append(concept)
+            else : 
+                concept = None 
+                liste_concept.append(concept)
+    elif 'sans' in words:
+        concept_reco, qualif_reco, quanti_reco, status = treat_line_cplx(line, taggeur, ('sans', 'P'))
+        for i in range(0,len(concept_reco)):
+            if concept_reco[i] is not None:
+                concept = Concept(concept_reco[i], quanti_reco[i], qualif_reco[i], status[i])
+                liste_concept.append(concept)
+                Trigger = True
             else : 
                 concept = None 
                 liste_concept.append(concept)
@@ -71,26 +81,26 @@ def sup_treat(line): #determine if its a simple or cplx treatment
         else : 
             concept = None
             liste_concept.append(concept)
-    return liste_concept
+    return  liste_concept
 
 def afficher_concept(concept, result): #print one concept
      if concept.libele != []  and concept.qualifieurs != [] and concept.quantifieurs != []:
-         result.write('\n' + (str(concept.libele).replace("['","")).replace("']","") + '\n')
+         result.write('\n' + ((str(concept.libele).replace("['","")).replace("']","")).replace("'","") + '\n')
          result.write('qualifiers : '+(str(concept.qualifieurs).replace('[','')).replace(']','') + '\n')
          result.write('quantifiers : '+(str(concept.quantifieurs).replace('[','')).replace(']','') + '\n')
          result.write('orbserved : ' + concept.stat+ '\n')
      elif concept.libele != [] and concept.qualifieurs == [] and concept.quantifieurs != []:
-         result.write('\n' + (str(concept.libele).replace("['","")).replace("']","") + '\n')
+         result.write('\n' + ((str(concept.libele).replace("['","")).replace("']","")).replace("'","") + '\n')
          result.write('no qualifiers \n')
          result.write('quantifiers : '+(str(concept.quantifieurs).replace('[','')).replace(']','') + '\n')
          result.write('orbserved : ' +concept.stat+ '\n')
      elif concept.libele != [] and concept.qualifieurs != [] and concept.quantifieurs == []:
-         result.write('\n' + (str(concept.libele).replace("['","")).replace("']","") + '\n')
+         result.write('\n' + ((str(concept.libele).replace("['","")).replace("']","")).replace("'","") + '\n')
          result.write('qualifiers : '+(str(concept.qualifieurs).replace('[','')).replace(']','') + '\n')
          result.write('no quantifiers \n')
          result.write('orbserved : ' +concept.stat+ '\n')
      elif concept.libele != [] and concept.qualifieurs == [] and concept.quantifieurs == []:
-         result.write('\n' + (str(concept.libele).replace("['","")).replace("']","") + '\n')
+         result.write('\n' + ((str(concept.libele).replace("['","")).replace("']","")).replace("'","") + '\n')
          result.write('no qualifiers \n')
          result.write('no quantifiers \n')
          result.write('orbserved : ' +concept.stat+ '\n')
@@ -108,16 +118,15 @@ def treat_file(filename, file_result): #treat a file line by line
     lines = recup_text(filename)
     result = open(file_result, 'w')
     result.write(filename + '\n\n')
+    result.write('-'*20+'\n')
     sol = []
     for line in lines: 
         liste_concept = sup_treat(line)
-        result.write(line )
+        result.write(line)
         sol.append(liste_concept)
+    result.write('-'*20)
     affichage_solution(sol, result) 
     return sol
-
-
-
 
 
 

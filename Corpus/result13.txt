@@ -1,42 +1,33 @@
-/home/oni/SESSTIM/craa/Corpus/Compte_rendu/CompteRendu2.txt
+/home/oni/SESSTIM/craa/Corpus/Compte_rendu/CompteRendu24.txt
 
-rythme sinusal. 
-absence de bradycardie ou pause. 
-absence de dysfonction sinusale. 
-extrasystolies ventriculaires fréquentes polymorphes  avec quelques doublets mais absence de tachycardie ventriculaires avec  charge rythmique 1.2 % . 
-extrasystolies supraventriculaires fréquentes mais aucun épisode de tachycardie atriale. 
-
+--------------------
+Rythme sinusal permanent.
+BAV 1. 
+EPISODE DE BRADYCARDIE SINUSALE DIURNE ET  NOCTURNE 45/MN.
+NOMBREUSES PAUSES ENTRE 2000 ET 3000 MS  DIURNE ET NOCTURNE MAIS AUCUNE SUPERIEURE A 3000 MS. 
+DYSFONCTION SINUSALE MINEURE.
+--------------------
 rythme sinusal
 no qualifiers 
+quantifiers : 'permanent'
+orbserved : OUI
+
+Bloc auriculoventriculaire premier degré
+no qualifiers 
 no quantifiers 
 orbserved : OUI
 
-Bradycardie
-no qualifiers 
-no quantifiers 
-orbserved : NON
+Bradycardie sinusale
+qualifiers : 'Diurne', 'nocturne'
+quantifiers : 'épisodique'
+orbserved : OUI
+
+Pause cardiaque
+qualifiers : 'Diurne', 'nocturne'
+quantifiers : 'nombreux'
+orbserved : OUI
 
 Maladie du sinus
-no qualifiers 
+qualifiers : 'mineure'
 no quantifiers 
-orbserved : NON
-
-Extrasystoles ventriculaire
-qualifiers : 'polymorphe', 'doublets'
-quantifiers : 'fréquentes'
 orbserved : OUI
-
-Tachycardie ventriculaire
-no qualifiers 
-no quantifiers 
-orbserved : NON
-
-Extrasystoles auriculaire
-no qualifiers 
-quantifiers : 'fréquentes'
-orbserved : OUI
-
-Tachycardie supraventriculaire
-no qualifiers 
-quantifiers : 'épisodique'
-orbserved : NON

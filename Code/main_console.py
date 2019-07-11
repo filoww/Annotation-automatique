@@ -24,7 +24,7 @@ def treat_all_files():
         file_result = path + '/result' + str(i) + '.txt'
         treat_file(file, file_result)
         ex = time.time() - start_time 
-        print('DONE.........'+file.replace('Corpus/Compte_rendu/','') +  ' en '+ str(round(ex,2)) + ' seconds')
+        print('DONE.........'+file.replace('Corpus/Compte_rendu/','') +  ' en '+ str(round(ex,2)) + ' seconds   '+str(i)+'/40')                                      
         i = i+1
         compteur = compteur +1 
     ex2 = time.time() - start_time2 

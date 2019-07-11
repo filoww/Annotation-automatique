@@ -1,0 +1,18 @@
+/home/oni/SESSTIM/craa/Corpus/Compte_rendu/CompteRendu28.txt
+
+--------------------
+rythme sinusal permanent.
+fc moyenne a 110 par min.
+extrasystoles ventriculaires monomorphes isolées le plus souvent et quelques extrasystoles bigéminées.
+charge estimee entre 10 et 11%.
+pas d autres anomalies rythmiques.
+--------------------
+rythme sinusal
+no qualifiers 
+quantifiers : 'permanent'
+orbserved : OUI
+
+Extrasystoles ventriculaire
+qualifiers : 'Monomorphe', 'isolées'
+no quantifiers 
+orbserved : OUI

@@ -95,7 +95,7 @@
     <owl:Class rdf:about="http://webprotege.stanford.edu/R771E94AIxMa527ghHTdrzB">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RL4eHaq61qaOh44sIxBKHT"/>
         <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D018879</dc:identifier>
-        <webprotege:RmpWmpzHL6dPyxWm6EyfUY rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Complexe ventriculaire prématuré,  Contraction ventriculaire prématurée, Extrasystole ventriculaire,  ESV, PVCs, VPC, extrasystolies ventriculaires,  Extrasystolies ventriculaire, Extra systolie ventriculaire, esv</webprotege:RmpWmpzHL6dPyxWm6EyfUY>
+        <webprotege:RmpWmpzHL6dPyxWm6EyfUY rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Complexe ventriculaire prématuré,  Contraction ventriculaire prématurée, Extrasystole ventriculaire,  ESV, PVCs, VPC, extrasystolies ventriculaires,  Extrasystolies ventriculaire, Extra systolie ventriculaire, esv, extrasystolie ventriculaire</webprotege:RmpWmpzHL6dPyxWm6EyfUY>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Extrasystoles_ventriculaire</rdfs:label>
     </owl:Class>
     
@@ -177,7 +177,18 @@ Bloc sinoatrial, BSA</webprotege:RmpWmpzHL6dPyxWm6EyfUY>
     <owl:Class rdf:about="http://webprotege.stanford.edu/R89lCOJvEuFoQFqOWXR929B">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RsUScWMEPFTw825rqVKEVU"/>
         <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0011706</dc:identifier>
+        <webprotege:RmpWmpzHL6dPyxWm6EyfUY rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BAV 2</webprotege:RmpWmpzHL6dPyxWm6EyfUY>
         <rdfs:label>Bloc_auriculoventriculaire_second_degré</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8WnPB1NN6AXrOTKWcuGgON -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8WnPB1NN6AXrOTKWcuGgON">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCZOwDp6PijuDa9dXBuWlkt"/>
+        <webprotege:RmpWmpzHL6dPyxWm6EyfUY rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pauses cardiaque, pause</webprotege:RmpWmpzHL6dPyxWm6EyfUY>
+        <rdfs:label>Pause_cardiaque</rdfs:label>
     </owl:Class>
     
 
@@ -221,6 +232,7 @@ Bloc sinoatrial, BSA</webprotege:RmpWmpzHL6dPyxWm6EyfUY>
     <owl:Class rdf:about="http://webprotege.stanford.edu/R9hmRqWEfvEFqE2bhf1Whtc">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RsUScWMEPFTw825rqVKEVU"/>
         <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0011705</dc:identifier>
+        <webprotege:RmpWmpzHL6dPyxWm6EyfUY rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BAV 1</webprotege:RmpWmpzHL6dPyxWm6EyfUY>
         <rdfs:label>Bloc_auriculoventriculaire_premier_degré</rdfs:label>
     </owl:Class>
     
@@ -326,7 +338,7 @@ Bloc sinoatrial, BSA</webprotege:RmpWmpzHL6dPyxWm6EyfUY>
     <owl:Class rdf:about="http://webprotege.stanford.edu/RC5XQQN5yIyahVpSvoUmomv">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCkhRLXO73eUHnzoJmCTFYb"/>
         <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D013617</dc:identifier>
-        <webprotege:RmpWmpzHL6dPyxWm6EyfUY rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SVT, TSV,  Tachycardie supra-ventriculaire, tachycardie atriale</webprotege:RmpWmpzHL6dPyxWm6EyfUY>
+        <webprotege:R8RyoU6U6xqqrRQ5pphzpjq rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SVT, TSV,  Tachycardie supra-ventriculaire, tachycardie atriale</webprotege:R8RyoU6U6xqqrRQ5pphzpjq>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tachycardie_supraventriculaire</rdfs:label>
     </owl:Class>
     
@@ -356,7 +368,7 @@ Bloc sinoatrial, BSA</webprotege:RmpWmpzHL6dPyxWm6EyfUY>
     <owl:Class rdf:about="http://webprotege.stanford.edu/RCQ3s7udCfbuY3OOMYqlRxU">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDqmWt32USvpCQbjTvw3uO1"/>
         <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D054138</dc:identifier>
-        <webprotege:RmpWmpzHL6dPyxWm6EyfUY rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pause sinusale,</webprotege:RmpWmpzHL6dPyxWm6EyfUY>
+        <webprotege:RmpWmpzHL6dPyxWm6EyfUY rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pause sinusale</webprotege:RmpWmpzHL6dPyxWm6EyfUY>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Arret_sinusale</rdfs:label>
     </owl:Class>
     
@@ -606,7 +618,7 @@ Bloc sinoatrial, BSA</webprotege:RmpWmpzHL6dPyxWm6EyfUY>
     <owl:Class rdf:about="http://webprotege.stanford.edu/Redte57J7xyGomlKtonjiV">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RL4eHaq61qaOh44sIxBKHT"/>
         <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D018880</dc:identifier>
-        <webprotege:RmpWmpzHL6dPyxWm6EyfUY rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Contraction auriculaire prématurée, Extrasystole atriale, Extrasystole auriculaire, Extrasystoles atriales, ESA, extrasystoles supraventriculaires, extrasystolies supraventriculaires</webprotege:RmpWmpzHL6dPyxWm6EyfUY>
+        <webprotege:RmpWmpzHL6dPyxWm6EyfUY rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Contraction auriculaire prématurée, Extrasystole atriale, Extrasystole auriculaire, Extrasystoles atriales, ESA, extrasystoles supraventriculaires, extrasystolies supraventriculaires, extrasystoles supra ventriculaires</webprotege:RmpWmpzHL6dPyxWm6EyfUY>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Extrasystoles_auriculaire</rdfs:label>
     </owl:Class>
     
@@ -674,7 +686,8 @@ pathologie du noeud sinusal, pathologie du sinus, pathologie rythmique auriculai
     <owl:Class rdf:about="http://webprotege.stanford.edu/RsUScWMEPFTw825rqVKEVU">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7YCG5wJGjrCgh4cRnGZHsf"/>
         <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0001678</dc:identifier>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bloc_atrioventriculaire</rdfs:label>
+        <webprotege:RmpWmpzHL6dPyxWm6EyfUY rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BAV</webprotege:RmpWmpzHL6dPyxWm6EyfUY>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bloc_auriculoventriculaire</rdfs:label>
     </owl:Class>
     
 
@@ -701,5 +714,5 @@ pathologie du noeud sinusal, pathologie du sinus, pathologie rythmique auriculai
 
 
 
-<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.10) https://github.com/owlcs/owlapi -->
 

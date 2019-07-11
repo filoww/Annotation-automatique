@@ -1,0 +1,15 @@
+/home/oni/SESSTIM/craa/Corpus/Compte_rendu/CompteRendu0.txt
+
+--------------------
+fa permanente sur les 3 jours analysés . . 
+pas de bradycardie ni pause . 
+--------------------
+Fibrillation auriculaire
+no qualifiers 
+quantifiers : 'permanent'
+orbserved : OUI
+
+Bradycardie, Pause cardiaque
+no qualifiers 
+no quantifiers 
+orbserved : NON

@@ -122,6 +122,7 @@ continuel
 durable
 endémique
 éternel
+non menaçante
 fixe
 immuable
 inaltérable

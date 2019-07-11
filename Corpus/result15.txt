@@ -1,21 +1,16 @@
-/home/oni/SESSTIM/craa/Corpus/Compte_rendu/CompteRendu6.txt
+/home/oni/SESSTIM/craa/Corpus/Compte_rendu/CompteRendu5.txt
 
-rythme  sinusal permanent. 
-pas d arythmie cardiaque. 
-extrasystoles ventriculaires assez rares isolées ou en doublets. 
-pas d autres anomalies rythmiques. 
-
+--------------------
+rythme sinusal permanent. 
+une salve de fibrillation auriculaire de 30 secondes nocturne. 
+pas d autres anomalies. 
+--------------------
 rythme sinusal
 no qualifiers 
 quantifiers : 'permanent'
 orbserved : OUI
 
-Trouble du rythme
-no qualifiers 
+Fibrillation auriculaire
+qualifiers : 'salves', 'nocturne'
 no quantifiers 
-orbserved : NON
-
-Extrasystoles ventriculaire
-qualifiers : 'isolées', 'doublets'
-quantifiers : 'rare'
 orbserved : OUI

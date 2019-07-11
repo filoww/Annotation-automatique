@@ -1,11 +1,12 @@
-/home/oni/SESSTIM/craa/Corpus/Compte_rendu/CompteRendu17.txt
+/home/oni/SESSTIM/craa/Corpus/Compte_rendu/CompteRendu30.txt
 
-rythme sinusal permanent. 
-pas de troubles rythmiques. 
-quelques esv. 
-pas d episodes de bradycardie cardiaque significative. 
-pas de pauses cardiaques significatives. 
+--------------------
+rythme sinusal permanent avec bonne variation nycthemerale.
+pas d arythmie cardiaque.
+quelques extrasystoles supra ventriculaires sans pause cardiaque significative
+pas de bradycardie significative.
 
+--------------------
 rythme sinusal
 no qualifiers 
 quantifiers : 'permanent'
@@ -16,12 +17,17 @@ no qualifiers
 no quantifiers 
 orbserved : NON
 
-Extrasystoles ventriculaire
+Extrasystoles auriculaire
 no qualifiers 
 no quantifiers 
 orbserved : OUI
 
+Pause cardiaque
+no qualifiers 
+quantifiers : 'significative'
+orbserved : NON
+
 Bradycardie
 no qualifiers 
-quantifiers : 'significative', 'épisodique'
+quantifiers : 'significative'
 orbserved : NON

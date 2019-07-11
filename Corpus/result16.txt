@@ -1,6 +1,14 @@
-/home/oni/SESSTIM/craa/Corpus/Compte_rendu/CompteRendu15.txt
+/home/oni/SESSTIM/craa/Corpus/Compte_rendu/CompteRendu16.txt
 
-pas d'arythmie enregistrée.. 
+--------------------
+rythme sinusal permanent. 
+pas d arythmie cardiaque. 
+pas d autres anomalies. 
+--------------------
+rythme sinusal
+no qualifiers 
+quantifiers : 'permanent'
+orbserved : OUI
 
 Trouble du rythme
 no qualifiers 

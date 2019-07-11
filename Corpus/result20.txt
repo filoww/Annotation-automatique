@@ -1,9 +1,9 @@
-/home/oni/SESSTIM/craa/Corpus/Compte_rendu/CompteRendu18.txt
+/home/oni/SESSTIM/craa/Corpus/Compte_rendu/CompteRendu12.txt
 
-electroentrainement ventriculaire permanent. 
-quelques esv. 
-
-Extrasystoles ventriculaire
+--------------------
+rythme sinusal permanent.
+--------------------
+rythme sinusal
 no qualifiers 
-no quantifiers 
+quantifiers : 'permanent'
 orbserved : OUI

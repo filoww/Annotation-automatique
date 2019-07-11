@@ -1,11 +1,12 @@
-/home/oni/SESSTIM/craa/Corpus/Compte_rendu/CompteRendu8.txt
+/home/oni/SESSTIM/craa/Corpus/Compte_rendu/CompteRendu17.txt
 
-indication ?. 
+--------------------
 rythme sinusal permanent. 
-pas d arythmie cardiaque. 
-pas de pauses cardiaques significatives. 
+pas de troubles rythmiques. 
+quelques esv. 
 pas d episodes de bradycardie cardiaque significative. 
-
+pas de pauses cardiaques significatives. 
+--------------------
 rythme sinusal
 no qualifiers 
 quantifiers : 'permanent'
@@ -16,7 +17,17 @@ no qualifiers
 no quantifiers 
 orbserved : NON
 
+Extrasystoles ventriculaire
+no qualifiers 
+no quantifiers 
+orbserved : OUI
+
 Bradycardie
 no qualifiers 
-quantifiers : 'significative', 'épisodique'
+quantifiers : 'épisodique', 'significative'
+orbserved : NON
+
+Pause cardiaque
+no qualifiers 
+quantifiers : 'significative'
 orbserved : NON

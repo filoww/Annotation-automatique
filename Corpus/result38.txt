@@ -1,0 +1,9 @@
+/home/oni/SESSTIM/craa/Corpus/Compte_rendu/CompteRendu29.txt
+
+--------------------
+holter ecg normal.
+--------------------
+Holter ECG
+qualifiers : 'normal'
+no quantifiers 
+orbserved : OUI

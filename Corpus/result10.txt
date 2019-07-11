@@ -1,27 +1,22 @@
-/home/oni/SESSTIM/craa/Corpus/Compte_rendu/CompteRendu10.txt
+/home/oni/SESSTIM/craa/Corpus/Compte_rendu/CompteRendu19.txt
 
-rythme sinusal permanent. 
-pas de troubles rythmiques. 
-pas d episodes de bradycardie cardiaque significative. 
-extrasystolie ventriculaire charge autour de 7.5%. 
-pas de pauses cardiaques significatives. 
-
-rythme sinusal
-no qualifiers 
-quantifiers : 'permanent'
-orbserved : OUI
-
+--------------------
+rythme de base sinusal. 
+arythmie ventriculaire monomorphe peu frequente . 
+pas de passage en fa. 
+pas de critere de dysfonction sinusale . 
+--------------------
 Trouble du rythme
-no qualifiers 
-no quantifiers 
-orbserved : NON
-
-Bradycardie
-no qualifiers 
-quantifiers : 'significative', 'épisodique'
-orbserved : NON
-
-Extrasystoles
-no qualifiers 
-no quantifiers 
+qualifiers : 'Monomorphe'
+quantifiers : 'peu', 'fréquentes'
 orbserved : OUI
+
+Fibrillation auriculaire
+no qualifiers 
+no quantifiers 
+orbserved : NON
+
+Maladie du sinus
+no qualifiers 
+no quantifiers 
+orbserved : NON

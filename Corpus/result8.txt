@@ -1,14 +1,22 @@
-/home/oni/SESSTIM/craa/Corpus/Compte_rendu/CompteRendu7.txt
+/home/oni/SESSTIM/craa/Corpus/Compte_rendu/CompteRendu34.txt
 
-rythme sinusal permanent. 
-pas d arythmie cardiaque. 
-
+--------------------
+Rythme sinusal permanent.
+Très rare ESV monomorphes.
+Absence d'arythmies supra ventriculaire ou ventriculaire soutenues.
+Absence de troubles conductifs.
+--------------------
 rythme sinusal
 no qualifiers 
 quantifiers : 'permanent'
 orbserved : OUI
 
+Extrasystoles ventriculaire
+qualifiers : 'Monomorphe'
+quantifiers : 'rare'
+orbserved : OUI
+
 Trouble du rythme
-no qualifiers 
+qualifiers : 'soutenue'
 no quantifiers 
 orbserved : NON

@@ -1,0 +1,16 @@
+/home/oni/SESSTIM/craa/Corpus/Compte_rendu/CompteRendu31.txt
+
+--------------------
+rythme sinusal permanent avec bonne variation nycthemerale.
+pas de trouble rythmique supra ventriculaire.
+pas d episodes de bradycardie significative.
+--------------------
+rythme sinusal
+no qualifiers 
+quantifiers : 'permanent'
+orbserved : OUI
+
+Bradycardie
+no qualifiers 
+quantifiers : 'épisodique', 'significative'
+orbserved : NON

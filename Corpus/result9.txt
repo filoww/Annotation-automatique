@@ -1,10 +1,12 @@
-/home/oni/SESSTIM/craa/Corpus/Compte_rendu/CompteRendu9.txt
+/home/oni/SESSTIM/craa/Corpus/Compte_rendu/CompteRendu8.txt
 
+--------------------
+indication ?. 
 rythme sinusal permanent. 
 pas d arythmie cardiaque. 
+pas de pauses cardiaques significatives. 
 pas d episodes de bradycardie cardiaque significative. 
-fc max a 155 par min mais en rythme sinusal. 
-
+--------------------
 rythme sinusal
 no qualifiers 
 quantifiers : 'permanent'
@@ -15,12 +17,12 @@ no qualifiers
 no quantifiers 
 orbserved : NON
 
-Bradycardie
+Pause cardiaque
 no qualifiers 
-quantifiers : 'significative', 'épisodique'
+quantifiers : 'significative'
 orbserved : NON
 
-rythme sinusal
+Bradycardie
 no qualifiers 
-no quantifiers 
-orbserved : OUI
+quantifiers : 'épisodique', 'significative'
+orbserved : NON

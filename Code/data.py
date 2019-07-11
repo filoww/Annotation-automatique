@@ -8,17 +8,17 @@ from nltk.stem.snowball import FrenchStemmer
 from onto import recup_onto, constit_dico
 
 quali = [ 'en salves' , 'isolées', 'bigéminées', 'avec aberration', 
-               'lambeaux', 'Soutenue', 'non soutenue', 'Brèves', 'salves', 'lambeaux', 'en salves' , 
+               'lambeaux', 'Brèves', 'salves', 'lambeaux', 'en salves' , 
                'bigéminées', 'une ou plusieurs morphologie',  'pic',
                'répétitives', 'complexes', 'doublets', 'triplets','couplets', 'à couplage précoce', 'à couplage tardif',
-               'à couplage variable','Monomorphe', 'polymorphe', 'Soutenue', 'non soutenue', 'Brèves', 'salves', 'lambeaux', 
+               'à couplage variable','Monomorphe', 'polymorphe', 'soutenue', 'non soutenue',
                'Droit', 'gauche', 'intermittent', 'chrono-dépendant','Diurne', 'nocturne', 'inappropriée', 
                'sur tout le nychémère', 'de haut degré', 'complet', 'intermittent', 'avec échappement', 
-               'sans échappement', 'bénigne']
+               'sans échappement', 'bénigne', 'mineure', 'paroxystique', 'normal']
 
 #quelques pas traité car pouvant se rapporter à un qualifieurs 
 
-negationeur = ['ne', 'ni', 'aucun', 'pas', 'absence']
+negationeur = ['ne', 'ni', 'aucun', 'pas', 'absence', 'sans']
 
 
 class Concept :
@@ -28,12 +28,15 @@ class Concept :
         self.quantifieurs  = quanti #list of quantitiv adjectives (empty)
         self.qualifieurs = qualif  #list of qualitativ adjectives  (empty)
         self.stat = status #Observed or not (not empty)
+        self.link = False
 
 def generate_data(onto_file ):
     quanti = generate_quanti()
     result = recup_onto(onto_file)
     concept = constit_dico(result)  
     concept.append(('rythme sinusal','rythme sinusal'))
+    concept.append(('holter ecg','Holter ECG'))
+    concept.append(('RS','rythme sinusal'))
     concept.remove(('Sinusale', 'Sinusale'))
     return concept, quanti
 

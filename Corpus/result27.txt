@@ -1,0 +1,21 @@
+/home/oni/SESSTIM/craa/Corpus/Compte_rendu/CompteRendu39.txt
+
+--------------------
+holter ECG NORMAL.
+Pas de tachycardie paroxystique.
+rares ESV isolées.
+--------------------
+Holter ECG
+qualifiers : 'normal'
+no quantifiers 
+orbserved : OUI
+
+Tachycardie paroxystique
+qualifiers : 'paroxystique'
+no quantifiers 
+orbserved : NON
+
+Extrasystoles ventriculaire
+qualifiers : 'isolées'
+quantifiers : 'rare'
+orbserved : OUI

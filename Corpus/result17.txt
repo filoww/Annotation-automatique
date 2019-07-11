@@ -1,20 +1,28 @@
-/home/oni/SESSTIM/craa/Corpus/Compte_rendu/CompteRendu3.txt
+/home/oni/SESSTIM/craa/Corpus/Compte_rendu/CompteRendu26.txt
 
-rythme sinusal permanent. 
-très rares extrasystoles supraventriculaires. 
-absence de tachycardie  supraventriculaires. 
+--------------------
+Rythme sinusal.
+très fréquente extrasystoles ventriculaires  avec charge rythmique élevée 17%.  
+2 Tachycardies ventriculaires  non soutenues, nombreux doublets et quelques triplets ventriculaires.
+absence de fibrillation auriculaire.
 
+--------------------
 rythme sinusal
 no qualifiers 
-quantifiers : 'permanent'
+no quantifiers 
 orbserved : OUI
 
-Extrasystoles auriculaire
+Extrasystoles ventriculaire
 no qualifiers 
-quantifiers : 'rare'
+quantifiers : 'fréquentes'
 orbserved : OUI
 
-Tachycardie supraventriculaire
+Tachycardie
+qualifiers : 'non soutenue', 'doublets', 'triplets'
+quantifiers : 'nombreux'
+orbserved : OUI
+
+Fibrillation auriculaire
 no qualifiers 
 no quantifiers 
 orbserved : NON
